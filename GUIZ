@@ -140,19 +140,6 @@ end)
 
 
 
-ss:Button("Knock All",function()
-
-for i,v in pairs(game:GetService("Players"):GetChildren()) do
-if v ~= game.Players.LocalPlayer then
-local args = {
-    [1] = v.Character.Humanoid,
-}
-
-game:GetService("ReplicatedStorage").RequiemKnock:FireServer(unpack(args))
-end
-end
-end)
-
 ss:Textbox("Freeze All For Added Time", true,function(t)
 
 for i,v in pairs(game:GetService("Players"):GetChildren()) do
@@ -325,19 +312,6 @@ end)
                     game:GetService("ReplicatedStorage"):FindFirstChild("\239\190\154\227\129\174\239\190\154\229\136\128\227\130\186\239\190\140\228\185\135\239\190\145\227\130\147\229\176\186W\227\129\178\228\185\135\227\130\147\239\190\140").SUSSY:FireServer(unpack(args))
                     
                     end)
-
-              ss:Textbox("Knock Target", true,function(t)
-              local args = {
-              [1] = game.Players[t].Character.Humanoid
-              }
-
-              game:GetService("ReplicatedStorage").RequiemKnock:FireServer(unpack(args))
-            end)
-            
-            
-            
-            
-        
         
         
         
