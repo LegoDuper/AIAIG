@@ -1,0 +1,209 @@
+--AIA GUI
+
+--Hello AIA Devs
+
+--Lego duper ;)
+
+local VLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vep1032/VepStuff/main/VL"))()
+local s = VLib:Window("An Infinite Adventure", "Lego duper", "Ld")
+local ss = s:Tab("Combat")
+
+ss:Toggle("Kill All Auto",function(v)
+getgenv().autokill = v
+
+if v == true then
+    getgenv().autokill = true 
+    while autokill do
+
+for i,v in pairs(game:GetService("Players"):GetChildren()) do
+if v ~= game.Players.LocalPlayer then
+local args = {
+    [1] = v.Character.Humanoid,
+    [2] = CFrame.new(68.57484436035156, 1963.0355224609375, -192.50257873535156) * CFrame.Angles(1.5214189291000366, -0.056306030601263046, 0.4284626543521881),
+    [3] = 1000000000000000000000000000000000000000000000,
+    [4] = 0.25,
+    [5] = Vector3.new(-4.318470478057861, 0.018233541399240494, -9.019450187683105),
+    [6] = "rbxassetid://241837157",
+    [7] = 0.075,
+    [8] = nil --[[Color3]],
+    [9] = "rbxassetid://260430079",
+    [10] = 1,
+    [11] = 2
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("\239\190\154\227\129\174\239\190\154\229\136\128\227\130\186\239\190\140\228\185\135\239\190\145\227\130\147\229\176\186W\227\129\178\228\185\135\227\130\147\239\190\140").SUSSY:FireServer(unpack(args))
+    wait()
+if v == false then
+getgenv().autokill = false
+end
+end
+end
+end
+end
+end)
+
+
+ss:Button("Kill All",function()
+
+for i,v in pairs(game:GetService("Players"):GetChildren()) do
+if v ~= game.Players.LocalPlayer then
+local args = {
+    [1] = v.Character.Humanoid,
+    [2] = CFrame.new(nil, nil, nil) * CFrame.Angles(1.5214189291000366, -0.056306030601263046, 0.4284626543521881),
+    [3] = math.huge,
+    [4] = 0,
+    [5] = Vector3.new(0, 0, 0),
+    [6] = "rbxassetid://241837157",
+    [7] = 0,
+    [8] = nil --[[Color3]],
+    [9] = "rbxassetid://260430079",
+    [10] = 1,
+    [11] = 2
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("\239\190\154\227\129\174\239\190\154\229\136\128\227\130\186\239\190\140\228\185\135\239\190\145\227\130\147\229\176\186W\227\129\178\228\185\135\227\130\147\239\190\140").SUSSY:FireServer(unpack(args))
+end
+end
+end)
+
+
+ss:Button("God All",function()
+
+for i,v in pairs(game:GetService("Players"):GetChildren()) do
+if v ~= game.Players.LocalPlayer then
+local args = {
+    [1] = v.Character.Humanoid,
+    [2] = CFrame.new(nil, nil, nil) * CFrame.Angles(1.5214189291000366, -0.056306030601263046, 0.4284626543521881),
+    [3] = -1000000000000000000000000000000000000000000000,
+    [4] = 0,
+    [5] = Vector3.new(0, 0, 0),
+    [6] = "rbxassetid://241837157",
+    [7] = 0.075,
+    [8] = nil --[[Color3]],
+    [9] = "rbxassetid://260430079",
+    [10] = 1,
+    [11] = 2
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("\239\190\154\227\129\174\239\190\154\229\136\128\227\130\186\239\190\140\228\185\135\239\190\145\227\130\147\229\176\186W\227\129\178\228\185\135\227\130\147\239\190\140").SUSSY:FireServer(unpack(args))
+end
+end
+end)
+
+
+ss:Button("Fling All",function()
+
+for i,v in pairs(game:GetService("Players"):GetChildren()) do
+if v ~= game.Players.LocalPlayer then
+local args = {
+    [1] = v.Character.Humanoid,
+    [2] = CFrame.new(nil, nil, nil) * CFrame.Angles(1.5214189291000366, -0.056306030601263046, 0.4284626543521881),
+    [3] = 0,
+    [4] = 5,
+    [5] = Vector3.new(math.huge, math.huge, math.huge),
+    [6] = "rbxassetid://241837157",
+    [7] = 0.075,
+    [8] = nil --[[Color3]],
+    [9] = "rbxassetid://260430079",
+    [10] = 1,
+    [11] = 2
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("\239\190\154\227\129\174\239\190\154\229\136\128\227\130\186\239\190\140\228\185\135\239\190\145\227\130\147\229\176\186W\227\129\178\228\185\135\227\130\147\239\190\140").SUSSY:FireServer(unpack(args))
+end
+end
+end)
+
+ss:Button("Freeze All",function()
+local LP = game.Players.LocalPlayer
+for i,v in pairs(game:GetService("Players"):GetChildren()) do
+if v ~= game.Players.LocalPlayer then
+local args = {
+    [1] = v.Character.Humanoid,
+    [2] = CFrame.new(nil, nil, nil) * CFrame.Angles(1.5214189291000366, -0.056306030601263046, 0.4284626543521881),
+    [3] = 0,
+    [4] = 59,
+    [5] = Vector3.new(nil, nil, nil),
+    [6] = "rbxassetid://241837157",
+    [7] = 0.075,
+    [8] = nil --[[Color3]],
+    [9] = "rbxassetid://260430079",
+    [10] = 1,
+    [11] = 2
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("\239\190\154\227\129\174\239\190\154\229\136\128\227\130\186\239\190\140\228\185\135\239\190\145\227\130\147\229\176\186W\227\129\178\228\185\135\227\130\147\239\190\140").SUSSY:FireServer(unpack(args))
+end
+end
+end)
+
+
+
+
+ss:Button("Knock All",function()
+for i,v in pairs(game:GetService("Players"):GetChildren()) do
+if v ~= game.Players.LocalPlayer then
+local args = {
+    [1] = v.Character.Humanoid
+}
+
+game:GetService("ReplicatedStorage").RequiemKnock:FireServer(unpack(args))
+end
+end
+end)
+
+ss:Textbox("Freeze All For Added Time", true,function(t)
+
+for i,v in pairs(game:GetService("Players"):GetChildren()) do
+if v ~= game.Players.LocalPlayer then
+local args = {
+    [1] = v.Character.Humanoid,
+    [2] = CFrame.new(nil, nil, nil) * CFrame.Angles(1.5214189291000366, -0.056306030601263046, 0.4284626543521881),
+    [3] = 0,
+    [4] = (t),
+    [5] = Vector3.new(nil, nil, nil),
+    [6] = "rbxassetid://241837157",
+    [7] = 0.075,
+    [8] = nil --[[Color3]],
+    [9] = "rbxassetid://260430079",
+    [10] = 1,
+    [11] = 2
+}
+
+game:GetService("ReplicatedStorage"):FindFirstChild("\239\190\154\227\129\174\239\190\154\229\136\128\227\130\186\239\190\140\228\185\135\239\190\145\227\130\147\229\176\186W\227\129\178\228\185\135\227\130\147\239\190\140").SUSSY:FireServer(unpack(args))
+end
+end
+end)
+
+
+
+
+
+
+local ss = s:Tab("Local Player")
+
+ss:Slider("Walk Speed",0,100,16,function(t)
+game:GetService("Players").LocalPlayer.Character.Humanoid.WalkSpeed = (t)
+end)
+
+ss:Slider("Jump Powerd",0,100,50,function(t)
+game:GetService("Players").LocalPlayer.Character.Humanoid.JumpPower = (t)
+end)
+
+ss:Button("God",function()
+    local args = {
+        [1] = game:GetService("Players").LocalPlayer.Character.Humanoid,
+        [2] = CFrame.new(nil, nil, nil) * CFrame.Angles(1.5214189291000366, -0.056306030601263046, 0.4284626543521881),
+        [3] = -math.huge,
+        [4] = 0,
+        [5] = Vector3.new(0, 0, 0),
+        [6] = "rbxassetid://241837157",
+        [7] = 0.075,
+        [8] = nil --[[Color3]],
+        [9] = "rbxassetid://260430079",
+        [10] = 1,
+        [11] = 2
+    }
+    
+    game:GetService("ReplicatedStorage"):FindFirstChild("\239\190\154\227\129\174\239\190\154\229\136\128\227\130\186\239\190\140\228\185\135\239\190\145\227\130\147\229\176\186W\227\129\178\228\185\135\227\130\147\239\190\140").SUSSY:FireServer(unpack(args))
+    end)
