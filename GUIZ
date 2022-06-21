@@ -170,11 +170,11 @@ end)
 
 local ss = s:Tab("Local Player")
 
-ss:Slider("Walk Speed",0,100,16,function(t)
+ss:Slider("Walk Speed",0,200,16,function(t)
 game:GetService("Players").LocalPlayer.Character.Humanoid.WalkSpeed = (t)
 end)
 
-ss:Slider("Jump Powerd",0,100,50,function(t)
+ss:Slider("Jump Powerd",0,200,50,function(t)
 game:GetService("Players").LocalPlayer.Character.Humanoid.JumpPower = (t)
 end)
 
