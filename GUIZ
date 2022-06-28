@@ -137,7 +137,27 @@ end
 end
 end)
 
+ss:Toggle("Reflect (Anti TS.)",function(v)
 
+getgenv().AntiTS = v
+
+if v == true then
+getgenv().auto = true 
+
+local RunService = game:GetService("RunService")
+while RunService.RenderStepped:Wait() and getgenv().AntiTS == true do
+
+if game:GetService("Lighting").TS.Value == true then
+game:GetService("Lighting").TS.Value = false
+
+if v == false then
+getgenv().AntiTS = false
+
+end
+end
+end
+end
+end)
 
 
 ss:Textbox("Freeze All For Added Time", true,function(t)
