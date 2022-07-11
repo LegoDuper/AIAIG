@@ -1,3 +1,5 @@
+--1sec
+
 --AIA GUI
 
 --Hello AIA Devs
@@ -31,7 +33,7 @@ local args = {
     [11] = 2
 }
 
-game:GetService("ReplicatedStorage"):FindFirstChild("\239\190\154\227\129\174\239\190\154\229\136\128\227\130\186\239\190\140\228\185\135\239\190\145\227\130\147\229\176\186W\227\129\178\228\185\135\227\130\147\239\190\140").SUSSY:FireServer(unpack(args))
+game:GetService("ReplicatedStorage"):FindFirstChild("\239\190\154\227\129\174\239\190\154\229\136\128\227\130\186\239\190\140\228\185\135\239\190\145\227\130\147\229\176\186W\227\129\178\228\185\135\227\130\147\239\190\140").wd:FireServer(unpack(args))
     wait()
 if v == false then
 getgenv().autokill = false
@@ -61,7 +63,7 @@ local args = {
     [11] = 2
 }
 
-game:GetService("ReplicatedStorage"):FindFirstChild("\239\190\154\227\129\174\239\190\154\229\136\128\227\130\186\239\190\140\228\185\135\239\190\145\227\130\147\229\176\186W\227\129\178\228\185\135\227\130\147\239\190\140").SUSSY:FireServer(unpack(args))
+game:GetService("ReplicatedStorage"):FindFirstChild("\239\190\154\227\129\174\239\190\154\229\136\128\227\130\186\239\190\140\228\185\135\239\190\145\227\130\147\229\176\186W\227\129\178\228\185\135\227\130\147\239\190\140").wd:FireServer(unpack(args))
 end
 end
 end)
@@ -85,7 +87,7 @@ local args = {
     [11] = 2
 }
 
-game:GetService("ReplicatedStorage"):FindFirstChild("\239\190\154\227\129\174\239\190\154\229\136\128\227\130\186\239\190\140\228\185\135\239\190\145\227\130\147\229\176\186W\227\129\178\228\185\135\227\130\147\239\190\140").SUSSY:FireServer(unpack(args))
+game:GetService("ReplicatedStorage"):FindFirstChild("\239\190\154\227\129\174\239\190\154\229\136\128\227\130\186\239\190\140\228\185\135\239\190\145\227\130\147\229\176\186W\227\129\178\228\185\135\227\130\147\239\190\140").wd:FireServer(unpack(args))
 end
 end
 end)
@@ -109,7 +111,7 @@ local args = {
     [11] = 2
 }
 
-game:GetService("ReplicatedStorage"):FindFirstChild("\239\190\154\227\129\174\239\190\154\229\136\128\227\130\186\239\190\140\228\185\135\239\190\145\227\130\147\229\176\186W\227\129\178\228\185\135\227\130\147\239\190\140").SUSSY:FireServer(unpack(args))
+game:GetService("ReplicatedStorage"):FindFirstChild("\239\190\154\227\129\174\239\190\154\229\136\128\227\130\186\239\190\140\228\185\135\239\190\145\227\130\147\229\176\186W\227\129\178\228\185\135\227\130\147\239\190\140").wd:FireServer(unpack(args))
 end
 end
 end)
@@ -132,12 +134,12 @@ local args = {
     [11] = 2
 }
 
-game:GetService("ReplicatedStorage"):FindFirstChild("\239\190\154\227\129\174\239\190\154\229\136\128\227\130\186\239\190\140\228\185\135\239\190\145\227\130\147\229\176\186W\227\129\178\228\185\135\227\130\147\239\190\140").SUSSY:FireServer(unpack(args))
+game:GetService("ReplicatedStorage"):FindFirstChild("\239\190\154\227\129\174\239\190\154\229\136\128\227\130\186\239\190\140\228\185\135\239\190\145\227\130\147\229\176\186W\227\129\178\228\185\135\227\130\147\239\190\140").wd:FireServer(unpack(args))
 end
 end
 end)
 
-ss:Toggle("Reflect (Anti TS.)",function(v)
+ss:Toggle("Anti TS",function(v)
 
 getgenv().AntiTS = v
 
@@ -178,7 +180,7 @@ local args = {
     [11] = 2
 }
 
-game:GetService("ReplicatedStorage"):FindFirstChild("\239\190\154\227\129\174\239\190\154\229\136\128\227\130\186\239\190\140\228\185\135\239\190\145\227\130\147\229\176\186W\227\129\178\228\185\135\227\130\147\239\190\140").SUSSY:FireServer(unpack(args))
+game:GetService("ReplicatedStorage"):FindFirstChild("\239\190\154\227\129\174\239\190\154\229\136\128\227\130\186\239\190\140\228\185\135\239\190\145\227\130\147\229\176\186W\227\129\178\228\185\135\227\130\147\239\190\140").wd:FireServer(unpack(args))
 end
 end
 end)
@@ -190,11 +192,11 @@ end)
 
 local ss = s:Tab("Local Player")
 
-ss:Slider("Walk Speed",0,200,16,function(t)
+ss:Slider("Walk Speed",16,200,16,function(t)
 game:GetService("Players").LocalPlayer.Character.Humanoid.WalkSpeed = (t)
 end)
 
-ss:Slider("Jump Powerd",0,200,50,function(t)
+ss:Slider("Jump Power",50,200,50,function(t)
 game:GetService("Players").LocalPlayer.Character.Humanoid.JumpPower = (t)
 end)
 
@@ -213,7 +215,7 @@ ss:Button("God",function()
         [11] = 2
     }
     
-    game:GetService("ReplicatedStorage"):FindFirstChild("\239\190\154\227\129\174\239\190\154\229\136\128\227\130\186\239\190\140\228\185\135\239\190\145\227\130\147\229\176\186W\227\129\178\228\185\135\227\130\147\239\190\140").SUSSY:FireServer(unpack(args))
+    game:GetService("ReplicatedStorage"):FindFirstChild("\239\190\154\227\129\174\239\190\154\229\136\128\227\130\186\239\190\140\228\185\135\239\190\145\227\130\147\229\176\186W\227\129\178\228\185\135\227\130\147\239\190\140").wd:FireServer(unpack(args))
     end)
 
 ss:Toggle("Reflect (Counter to all retarded Satiama users.)",function(v)
@@ -268,7 +270,7 @@ local args = {
     [11] = 2
 }
 
-game:GetService("ReplicatedStorage"):FindFirstChild("\239\190\154\227\129\174\239\190\154\229\136\128\227\130\186\239\190\140\228\185\135\239\190\145\227\130\147\229\176\186W\227\129\178\228\185\135\227\130\147\239\190\140").SUSSY:FireServer(unpack(args))
+game:GetService("ReplicatedStorage"):FindFirstChild("\239\190\154\227\129\174\239\190\154\229\136\128\227\130\186\239\190\140\228\185\135\239\190\145\227\130\147\229\176\186W\227\129\178\228\185\135\227\130\147\239\190\140").wd:FireServer(unpack(args))
 end)
 
 
@@ -289,7 +291,7 @@ end)
                 [11] = 2
             }
             
-            game:GetService("ReplicatedStorage"):FindFirstChild("\239\190\154\227\129\174\239\190\154\229\136\128\227\130\186\239\190\140\228\185\135\239\190\145\227\130\147\229\176\186W\227\129\178\228\185\135\227\130\147\239\190\140").SUSSY:FireServer(unpack(args))
+            game:GetService("ReplicatedStorage"):FindFirstChild("\239\190\154\227\129\174\239\190\154\229\136\128\227\130\186\239\190\140\228\185\135\239\190\145\227\130\147\229\176\186W\227\129\178\228\185\135\227\130\147\239\190\140").wd:FireServer(unpack(args))
            
             end)
 
@@ -309,7 +311,7 @@ end)
                     [11] = 2
                 }
                 
-                game:GetService("ReplicatedStorage"):FindFirstChild("\239\190\154\227\129\174\239\190\154\229\136\128\227\130\186\239\190\140\228\185\135\239\190\145\227\130\147\229\176\186W\227\129\178\228\185\135\227\130\147\239\190\140").SUSSY:FireServer(unpack(args))
+                game:GetService("ReplicatedStorage"):FindFirstChild("\239\190\154\227\129\174\239\190\154\229\136\128\227\130\186\239\190\140\228\185\135\239\190\145\227\130\147\229\176\186W\227\129\178\228\185\135\227\130\147\239\190\140").wd:FireServer(unpack(args))
           
                 end)
 
@@ -329,7 +331,7 @@ end)
                         [11] = 2
                     }
                     
-                    game:GetService("ReplicatedStorage"):FindFirstChild("\239\190\154\227\129\174\239\190\154\229\136\128\227\130\186\239\190\140\228\185\135\239\190\145\227\130\147\229\176\186W\227\129\178\228\185\135\227\130\147\239\190\140").SUSSY:FireServer(unpack(args))
+                    game:GetService("ReplicatedStorage"):FindFirstChild("\239\190\154\227\129\174\239\190\154\229\136\128\227\130\186\239\190\140\228\185\135\239\190\145\227\130\147\229\176\186W\227\129\178\228\185\135\227\130\147\239\190\140").wd:FireServer(unpack(args))
                     
                     end)
         
@@ -354,7 +356,7 @@ end)
                         [11] = 2
                     }
                     
-                    game:GetService("ReplicatedStorage"):FindFirstChild("\239\190\154\227\129\174\239\190\154\229\136\128\227\130\186\239\190\140\228\185\135\239\190\145\227\130\147\229\176\186W\227\129\178\228\185\135\227\130\147\239\190\140").SUSSY:FireServer(unpack(args))
+                    game:GetService("ReplicatedStorage"):FindFirstChild("\239\190\154\227\129\174\239\190\154\229\136\128\227\130\186\239\190\140\228\185\135\239\190\145\227\130\147\229\176\186W\227\129\178\228\185\135\227\130\147\239\190\140").wd:FireServer(unpack(args))
                     wait(1)
                     end
                     end)
@@ -394,7 +396,7 @@ local args = {
     [11] = 0
 }
 
-game:GetService("ReplicatedStorage"):FindFirstChild("\239\190\154\227\129\174\239\190\154\229\136\128\227\130\186\239\190\140\228\185\135\239\190\145\227\130\147\229\176\186W\227\129\178\228\185\135\227\130\147\239\190\140").SUSSY:FireServer(unpack(args))
+game:GetService("ReplicatedStorage"):FindFirstChild("\239\190\154\227\129\174\239\190\154\229\136\128\227\130\186\239\190\140\228\185\135\239\190\145\227\130\147\229\176\186W\227\129\178\228\185\135\227\130\147\239\190\140").wd:FireServer(unpack(args))
 end
 end
 end)
@@ -423,12 +425,11 @@ local args = {
     [11] = 0
 }
 
-game:GetService("ReplicatedStorage"):FindFirstChild("\239\190\154\227\129\174\239\190\154\229\136\128\227\130\186\239\190\140\228\185\135\239\190\145\227\130\147\229\176\186W\227\129\178\228\185\135\227\130\147\239\190\140").SUSSY:FireServer(unpack(args))
+game:GetService("ReplicatedStorage"):FindFirstChild("\239\190\154\227\129\174\239\190\154\229\136\128\227\130\186\239\190\140\228\185\135\239\190\145\227\130\147\229\176\186W\227\129\178\228\185\135\227\130\147\239\190\140").wd:FireServer(unpack(args))
     wait()
 if not getgenv().Auto then return end
 end
 end
 end
 end)
-
 
