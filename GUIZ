@@ -439,7 +439,7 @@ local ss = s:Tab("NEW!!!")
 
 
 
-ss:Toggle("Reflect (Counter to all retarded Satiama users.)",function(v)
+ss:Toggle("LAG SERVER (Server will be unusable.)",function(v)
 
     getgenv().auto = v
 
